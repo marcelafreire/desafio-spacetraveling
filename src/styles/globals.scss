@@ -4,4 +4,44 @@
   padding: 0;
 }
 
-// TODO
+
+:root {
+  --white: white;
+  --gray050: #F8F8F8;
+  --gray100: #D7D7D7;
+  --gray200: #BBBBBB;
+  --gray900: #1A1D23;
+  --highlight: #FF57B2;
+
+}
+
+@media(max-width: 1080) {
+  html {
+      font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720) {
+  html {
+      font-size: 87.5%;
+  }
+}
+
+
+body {
+  background: var(--gray900);
+  color: var(--white);
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
